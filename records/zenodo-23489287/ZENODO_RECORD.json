@@ -1,0 +1,133 @@
+{
+  "conceptdoi": "10.5281/zenodo.23489287",
+  "conceptrecid": "23489287",
+  "created": "2026-10-20T04:03:21.946965+00:00",
+  "doi": "10.5281/zenodo.23489288",
+  "doi_url": "https://doi.org/10.5281/zenodo.23489288",
+  "files": [
+    {
+      "checksum": "md5:80c091284dd62d4432b1f5291f5cb302",
+      "id": "e593193e-c134-466f-bb86-5f776e843d67",
+      "key": "asymptotics_note.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/23489288/files/asymptotics_note.pdf/content"
+      },
+      "size": 106758
+    },
+    {
+      "checksum": "md5:ba88ccefe64696c4bb92585c03ca05a2",
+      "id": "0d2809c2-b351-4dfb-860a-53b5d1d363fe",
+      "key": "ADDENDUM_asymptotics_after_2026-10-18.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/23489288/files/ADDENDUM_asymptotics_after_2026-10-18.pdf/content"
+      },
+      "size": 282615
+    }
+  ],
+  "id": 23489288,
+  "links": {
+    "access": "https://zenodo.org/api/records/23489288/access",
+    "access_grants": "https://zenodo.org/api/records/23489288/access/grants",
+    "access_links": "https://zenodo.org/api/records/23489288/access/links",
+    "access_request": "https://zenodo.org/api/records/23489288/access/request",
+    "access_users": "https://zenodo.org/api/records/23489288/access/users",
+    "communities": "https://zenodo.org/api/records/23489288/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/23489288/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.23489288",
+    "draft": "https://zenodo.org/api/records/23489288/draft",
+    "file_modification": "https://zenodo.org/api/records/23489288/file-modification",
+    "files": "https://zenodo.org/api/records/23489288/files",
+    "latest": "https://zenodo.org/api/records/23489288/versions/latest",
+    "latest_html": "https://zenodo.org/records/23489288/latest",
+    "media_files": "https://zenodo.org/api/records/23489288/media-files",
+    "parent": "https://zenodo.org/api/records/23489287",
+    "parent_doi": "https://doi.org/10.5281/zenodo.23489287",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23489287",
+    "parent_html": "https://zenodo.org/records/23489287",
+    "preview_html": "https://zenodo.org/records/23489288?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/23489288/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/23489288/request-deletion",
+    "requests": "https://zenodo.org/api/records/23489288/requests",
+    "reserve_doi": "https://zenodo.org/api/records/23489288/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/23489288",
+    "self_doi": "https://doi.org/10.5281/zenodo.23489288",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23489288",
+    "self_html": "https://zenodo.org/records/23489288",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:23489288/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:23489288/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:23489288:asymptotics_note.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:23489288:asymptotics_note.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:23489288:asymptotics_note.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:23489288:asymptotics_note.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:23489288:asymptotics_note.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:23489288:asymptotics_note.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/23489288/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Davis, Joshua W."
+      }
+    ],
+    "description": "<p>Working note on the asymptotics of the normalized centered inverse-binomial moment R(m,n) = 4^m A_m(n)/n^(2m), building on the author's paper \"Centered inverse-binomial moments\" (Zenodo). R tends to a finite limit for m &lt; n/2, grows like n^(1/4) at m = n/2, and grows exponentially for m &gt; n/2; the note gives results for every regime, including m much larger than n, many with explicit constants. Two files: the working note as of 18 October 2026, and an addendum recording all later work (a full 1/n expansion with certified error bounds, the exact Stokes constant of the crossover function, explicit large-m constants, and corrections). Every result is labelled proved, certified, formal, checked, or conjecture. None has yet been checked line by line by the author or an outside referee; the work is under review. The results were derived with AI assistance (Claude, Anthropic) under the author's direction and tested against exact-arithmetic and interval-arithmetic scripts; agreement between AI systems was not treated as verification.</p>",
+    "doi": "10.5281/zenodo.23489288",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2026-10-20",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.23325629",
+        "relation": "isSupplementTo",
+        "resource_type": "publication",
+        "scheme": "doi"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": false,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "23489287"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "preprint",
+      "title": "Preprint",
+      "type": "publication"
+    },
+    "title": "Asymptotics of centered inverse-binomial moments: regimes, bounds and open questions (working note)."
+  },
+  "modified": "2026-10-20T04:11:07.171180+00:00",
+  "owners": [
+    {
+      "id": "1936834"
+    }
+  ],
+  "recid": "23489288",
+  "revision": 4,
+  "state": "done",
+  "stats": {
+    "downloads": 116,
+    "unique_downloads": 111,
+    "unique_views": 102,
+    "version_downloads": 11,
+    "version_unique_downloads": 8,
+    "version_unique_views": 49,
+    "version_views": 55,
+    "views": 121
+  },
+  "status": "published",
+  "submitted": true,
+  "swh": null,
+  "title": "Asymptotics of centered inverse-binomial moments: regimes, bounds and open questions (working note).",
+  "updated": "2026-10-20T04:11:07.171180+00:00"
+}
