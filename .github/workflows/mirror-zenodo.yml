@@ -1,0 +1,58 @@
+# Made by Loia Labs LLC. Credit line only: no copyright claim is made in this file;
+# licence terms are in the LICENSE of the record that carries it.
+# Mirror one published Zenodo record into this repository. The tool is read from ZenHub_kit.zip.
+# Zenodo is the record of origin. Do NOT switch this repository on under Zenodo > Settings > GitHub.
+name: Mirror a Zenodo record
+
+on:
+  workflow_dispatch:
+    inputs:
+      record:
+        description: "Zenodo record number or link"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zenodo-mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Unpack the tool from ZenHub_kit.zip
+        run: |
+          echo "cf4d6bd7a6821026c5ed4eef08e9203cd9b1e686bced55b9c973e12ff0274dbd  ZenHub_kit.zip" | sha256sum -c -
+          unzip -q ZenHub_kit.zip -d "$RUNNER_TEMP/kit"
+
+      - name: Run the tool's offline tests
+        run: |
+          python3 -I "$RUNNER_TEMP/kit/ZenHub/tools/test_zenodo_to_github.py" | tee "$RUNNER_TEMP/tests.txt"
+          ! grep -q FAIL "$RUNNER_TEMP/tests.txt"
+
+      - name: Fetch from Zenodo, check every file, commit new versions
+        env:
+          RECORD: ${{ inputs.record }}
+        run: |
+          set +e
+          python3 -I "$RUNNER_TEMP/kit/ZenHub/tools/zenodo_to_github.py" "$RECORD" --repo .
+          status=$?
+          echo "## Mirror report" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat records/MIRROR_REPORT.txt >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          rm -f records/MIRROR_REPORT.txt records/push_commands.sh
+          exit $status
+
+      - name: Push the new commits and tags (only if every check passed)
+        run: |
+          git push origin HEAD
+          git push origin --tags
