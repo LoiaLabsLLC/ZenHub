@@ -1,87 +1,60 @@
 {
   "conceptdoi": "10.5281/zenodo.23489287",
   "conceptrecid": "23489287",
-  "created": "2026-10-21T13:26:24.717383+00:00",
-  "doi": "10.5281/zenodo.23535132",
-  "doi_url": "https://doi.org/10.5281/zenodo.23535132",
+  "created": "2026-11-22T02:09:04.659701+00:00",
+  "doi": "10.5281/zenodo.24431735",
+  "doi_url": "https://doi.org/10.5281/zenodo.24431735",
   "files": [
     {
-      "checksum": "md5:80c091284dd62d4432b1f5291f5cb302",
-      "id": "c6892e00-e0c9-4761-99be-9f9e169d213a",
-      "key": "asymptotics_note.pdf",
+      "checksum": "md5:8df62bf55da0b0bcd225dbd7e92d19e6",
+      "id": "e6e0bc91-815e-4983-9254-cc00896ce800",
+      "key": "asymptotics_note_v4_42ac618cc7c5fe93.pdf",
       "links": {
-        "self": "https://zenodo.org/api/records/23535132/files/asymptotics_note.pdf/content"
+        "self": "https://zenodo.org/api/records/24431735/files/asymptotics_note_v4_42ac618cc7c5fe93.pdf/content"
       },
-      "size": 106758
-    },
-    {
-      "checksum": "md5:7201fea43bf49e362f6f9ff013569a4f",
-      "id": "18eae555-1efa-4426-a697-4029137c5267",
-      "key": "ADDENDUM_3_asymptotics_after_second_addendum.pdf",
-      "links": {
-        "self": "https://zenodo.org/api/records/23535132/files/ADDENDUM_3_asymptotics_after_second_addendum.pdf/content"
-      },
-      "size": 68687
-    },
-    {
-      "checksum": "md5:dd24188948659ff62d2d72d3c9018812",
-      "id": "2ebaab63-054b-4f03-b432-5c2ff19f10ab",
-      "key": "SECOND_ADDENDUM_after_2026-10-20.pdf",
-      "links": {
-        "self": "https://zenodo.org/api/records/23535132/files/SECOND_ADDENDUM_after_2026-10-20.pdf/content"
-      },
-      "size": 125623
-    },
-    {
-      "checksum": "md5:ba88ccefe64696c4bb92585c03ca05a2",
-      "id": "20c60755-47b5-41ab-8531-f6e143bc7ac0",
-      "key": "ADDENDUM_asymptotics_after_2026-10-18.pdf",
-      "links": {
-        "self": "https://zenodo.org/api/records/23535132/files/ADDENDUM_asymptotics_after_2026-10-18.pdf/content"
-      },
-      "size": 282615
+      "size": 734751
     }
   ],
-  "id": 23535132,
+  "id": 24431735,
   "links": {
-    "access": "https://zenodo.org/api/records/23535132/access",
-    "access_grants": "https://zenodo.org/api/records/23535132/access/grants",
-    "access_links": "https://zenodo.org/api/records/23535132/access/links",
-    "access_request": "https://zenodo.org/api/records/23535132/access/request",
-    "access_users": "https://zenodo.org/api/records/23535132/access/users",
-    "communities": "https://zenodo.org/api/records/23535132/communities",
-    "communities-suggestions": "https://zenodo.org/api/records/23535132/communities-suggestions",
-    "doi": "https://doi.org/10.5281/zenodo.23535132",
-    "draft": "https://zenodo.org/api/records/23535132/draft",
-    "file_modification": "https://zenodo.org/api/records/23535132/file-modification",
-    "files": "https://zenodo.org/api/records/23535132/files",
-    "latest": "https://zenodo.org/api/records/23535132/versions/latest",
-    "latest_html": "https://zenodo.org/records/23535132/latest",
-    "media_files": "https://zenodo.org/api/records/23535132/media-files",
+    "access": "https://zenodo.org/api/records/24431735/access",
+    "access_grants": "https://zenodo.org/api/records/24431735/access/grants",
+    "access_links": "https://zenodo.org/api/records/24431735/access/links",
+    "access_request": "https://zenodo.org/api/records/24431735/access/request",
+    "access_users": "https://zenodo.org/api/records/24431735/access/users",
+    "communities": "https://zenodo.org/api/records/24431735/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/24431735/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.24431735",
+    "draft": "https://zenodo.org/api/records/24431735/draft",
+    "file_modification": "https://zenodo.org/api/records/24431735/file-modification",
+    "files": "https://zenodo.org/api/records/24431735/files",
+    "latest": "https://zenodo.org/api/records/24431735/versions/latest",
+    "latest_html": "https://zenodo.org/records/24431735/latest",
+    "media_files": "https://zenodo.org/api/records/24431735/media-files",
     "parent": "https://zenodo.org/api/records/23489287",
     "parent_doi": "https://doi.org/10.5281/zenodo.23489287",
     "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23489287",
     "parent_html": "https://zenodo.org/records/23489287",
-    "preview_html": "https://zenodo.org/records/23535132?preview=1",
-    "quota_increase": "https://zenodo.org/api/records/23535132/quota-increase",
-    "request_deletion": "https://zenodo.org/api/records/23535132/request-deletion",
-    "requests": "https://zenodo.org/api/records/23535132/requests",
-    "reserve_doi": "https://zenodo.org/api/records/23535132/draft/pids/doi",
-    "self": "https://zenodo.org/api/records/23535132",
-    "self_doi": "https://doi.org/10.5281/zenodo.23535132",
-    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23535132",
-    "self_html": "https://zenodo.org/records/23535132",
-    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:23535132/manifest",
-    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:23535132/sequence/default",
+    "preview_html": "https://zenodo.org/records/24431735?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/24431735/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/24431735/request-deletion",
+    "requests": "https://zenodo.org/api/records/24431735/requests",
+    "reserve_doi": "https://zenodo.org/api/records/24431735/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/24431735",
+    "self_doi": "https://doi.org/10.5281/zenodo.24431735",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.24431735",
+    "self_html": "https://zenodo.org/records/24431735",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:24431735/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:24431735/sequence/default",
     "thumbnails": {
-      "10": "https://zenodo.org/api/iiif/record:23535132:asymptotics_note.pdf/full/%5E10,/0/default.jpg",
-      "100": "https://zenodo.org/api/iiif/record:23535132:asymptotics_note.pdf/full/%5E100,/0/default.jpg",
-      "1200": "https://zenodo.org/api/iiif/record:23535132:asymptotics_note.pdf/full/%5E1200,/0/default.jpg",
-      "250": "https://zenodo.org/api/iiif/record:23535132:asymptotics_note.pdf/full/%5E250,/0/default.jpg",
-      "50": "https://zenodo.org/api/iiif/record:23535132:asymptotics_note.pdf/full/%5E50,/0/default.jpg",
-      "750": "https://zenodo.org/api/iiif/record:23535132:asymptotics_note.pdf/full/%5E750,/0/default.jpg"
+      "10": "https://zenodo.org/api/iiif/record:24431735:asymptotics_note_v4_42ac618cc7c5fe93.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:24431735:asymptotics_note_v4_42ac618cc7c5fe93.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:24431735:asymptotics_note_v4_42ac618cc7c5fe93.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:24431735:asymptotics_note_v4_42ac618cc7c5fe93.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:24431735:asymptotics_note_v4_42ac618cc7c5fe93.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:24431735:asymptotics_note_v4_42ac618cc7c5fe93.pdf/full/%5E750,/0/default.jpg"
     },
-    "versions": "https://zenodo.org/api/records/23535132/versions"
+    "versions": "https://zenodo.org/api/records/24431735/versions"
   },
   "metadata": {
     "access_right": "open",
@@ -91,25 +64,48 @@
         "name": "Davis, Joshua W."
       }
     ],
-    "description": "<p>Working note on the asymptotics of the normalized centered inverse-binomial moment R(m,n) = 4^m A_m(n)/n^(2m), building on the author's paper \"Centered inverse-binomial moments\" (Zenodo). R tends to a finite limit for m &lt; n/2, grows like n^(1/4) at m = n/2, and grows exponentially for m &gt; n/2; the note gives results for every regime, including m much larger than n, many with explicit constants. Four files: the working note as of 18 October 2026 (unchanged from version 1); the first addendum recording later work (unchanged from version 1); the second addendum (unchanged from version 2) with an internal audit of the note's lemmas and theorems, a correction to one constant (Lemma 3: M2 = 0.0118455788..., previously stated as 0.0118453...; no result changes), and new limit laws for maximal and fixed points of surjective pistols; and a third addendum (new in version 3) with the exponential-side matching of the crossover coefficients checked to fifth order (formal, checked), a numerically tested plan for the uniformity theorem still needed to prove it, a one-line proof of the relation between the inverse-binomial moment polynomials and Tuenter's polynomials, and an updated literature check (web search only). Every result is labelled proved, certified, formal, checked, or conjecture. The author reviewed each step as it was produced but has not checked the proofs line by line, and no professional mathematician has yet reported on them; the work is under review. Nothing here should be treated as independently verified.</p>\n<p>Method and credit. The earlier paper's results (the decomposition, the moment representation and the coefficient laws) were developed by three AI systems, Claude (Anthropic), Grok (xAI) and Gemini (Google), working in exchange with one another and proofreading one another's work, under the author's direction; the project began in a Grok session. The asymptotic results in this note and its addenda were developed in the same round-table process, principally with Claude, in which the author ran the sessions and relayed between the assistants, chose the problem and the questions, directed each stage, reviewed each step, and decided what was recorded and how each result is labelled. Results were tested against exact-arithmetic and interval-arithmetic scripts; agreement between AI systems was not treated as verification.</p>",
-    "doi": "10.5281/zenodo.23535132",
+    "description": "<p>This record contains the working note \"Asymptotics of centered inverse-binomial moments: regimes, bounds and open questions\", version 4 (21 November 2026). Versions 1, 2 and 3 (doi:10.5281/zenodo.23489288, doi:10.5281/zenodo.23504406, doi:10.5281/zenodo.23535132) carry the note of 18 October 2026 unchanged, together with three addenda; version 4 is a full revision of the note itself, and the addenda remain in those records. Not independently refereed. The scripts, logs and proof texts are in the companion code record doi:10.5281/zenodo.24431534.</p>\n<p>STATEMENT</p>\n<p>The normalized moment R(m,n) = 4^m A_m(n)/n^(2m) of the centered inverse-binomial sums changes behaviour at m = n/2: below it R tends to a finite limit, at it R grows like n^(1/4), and above it R grows exponentially in n. The note gives results for every regime: below, at and above the transition, across it, and for m much larger than n, many with explicit two-sided bounds valid for every n. The main tool is the weight |&Gamma;(y+it)|&sup2;, the symmetric Meixner (generalized hyperbolic secant) law, with y = (n+2)/2.</p>\n<p>MOTIVATION</p>\n<p>The main paper (doi:10.5281/zenodo.23325629) writes S_m(n) = A_m(n)U_n + B_m(n) and represents A_m(n) as a moment of |&Gamma;(y+ix)|&sup2;. This note asks how A_m(n) grows in every joint regime of m and n, and how firmly each answer is known. We have not found these results for these moments in the literature or in a direct search of zbMATH Open; MathSciNet has not been searched.</p>\n<p>STATUS</p>\n<p>Lemma 1 (two-sided bound on the weight): Proved, explicit.<br>Lemma 2&prime; (error of the Stirling form of the weight, between &minus;w&sup2;/(3(n+2)(w&sup2;+(1+2/n)&sup2;)) &minus; min(2w&sup2;, 3/4)/n&sup2; and 0): Proved, explicit (new in version 4).<br>Lemma 3 (uniform Stirling form with Binet constants; M\u2082 corrected to 0.0118455788&hellip;): Proved, explicit.<br>Lemma 3&Prime; (&minus;2y&sup3;/(3t&sup3;) &le; &eta;&prime; &le; 0 for y &ge; 2, t &ge; max(5y, 20)): Proved (new in version 4).<br>Theorem 1 (&theta; = m/n &lt; 1/2: R &rarr; (1 &minus; 2&theta;)^(&minus;1/2)): Proved, explicit domination; its 1/n and 1/n&sup2; terms: Proved, constant not explicit (new in version 4; was Heuristic).<br>Theorem 2 (&theta; = 1/2: R ~ C n^(1/4), C = 1.131876): Proved, explicit bounds for even n &ge; 10.<br>Theorem 3 (rate (1/n) ln R &rarr; &phi;(&theta;) within (ln n + C\u2082(&theta;))/n): Proved, explicit.<br>Theorem 4 (&theta; &gt; 1/2: R = K(&theta;) e^(n&phi;(&theta;))(1 + O(1/n))): Proved (cites a standard Laplace theorem).<br>Theorem 5 (Theorem 4 uniform in &theta; &ge; &theta;\u2080 &gt; 1/2; ratio law for A_m/h_m): Proved, constant not explicit (was Sketch).<br>Theorem 6 (fixed n, m &rarr; &infin;): Proved.<br>Theorem 7 (m &ge; n&sup2;: A_m/h_m = 1 + &pi;&sup2;n&sup2;/(16m) + O(n\u2074/m&sup2;)): Proved, explicit for n &ge; 4.<br>Theorem 8 (m ~ &lambda;n&sup2;: A_m/h_m &rarr; e^(&pi;&sup2;/(16&lambda;))): Proved, constants omitted.<br>Theorem 9 (Gamma-model formula for A_m/h_m): Proved, computer-assisted (102,747 certified boxes, replicated by an independent implementation and on a second machine).<br>Theorem 10 (m = n/2 + x&radic;n: R/(C n^(1/4)) &rarr; F(x), a parabolic cylinder function): Proved, no rate (was Conjecture 1 in version 1).<br>Theorem U (uniform expansion across &theta; = 1/2): Conditional on written but unreviewed arguments; its interval bounds are in doi:10.5281/zenodo.24426089.<br>The constant c\u2081(0) = 0.910691 in Theorem 2's correction: Heuristic.<br>Every new section was read by the author on 21 November 2026. No proof has yet been checked by an independent mathematician.</p>\n<p>RESULTS</p>\n<p>Bounds on the weight (Lemmas 1, 2&prime;, 3, 3&Prime;); the three regimes &theta; &lt; 1/2, &theta; = 1/2, &theta; &gt; 1/2 (Theorems 1 to 5, including the new proof of the 1/n and 1/n&sup2; terms and the new proof of Theorem 5); m much larger than n (Theorems 6 to 9); the crossover at the transition (Theorem 10); and the conditional uniform expansion (Theorem U). New in version 4: a section \"How the results were found\", which shows in five steps how each result was reached (exact values from the recursion, the exponent &Psi;, the w&sup2;/w\u2074 expansion (&theta; &minus; 1/2)w&sup2; + (1/12 &minus; &theta;/2)w\u2074 behind Theorems 1 to 4 and 10, the Gamma-law picture behind Theorems 6 to 9, and testing before proving); the secant identity &Sigma; h_m u^(2m)/(2m)! = sec(u/2)^(n+2), proved; and \"Worked by hand\", sixteen blocks W1 to W16 that redo Lemmas 1, 2&prime; and 3 and Theorems 1 to 10 with pencil-sized numbers, each with a case that must fail. Two errors found since version 1 are corrected: the constant M\u2082 in Lemma 3, and a gap in the proof of Theorem 6 for n &le; 3.</p>\n<p>FILES</p>\n<p>The note, asymptotics_note_v4_42ac618cc7c5fe93.pdf (33 pages). The code record, doi:10.5281/zenodo.24431534, holds asymptotics_code_record_892de09ffa95a21d.zip (SHA-256 beginning 892de09ffa95a21d; SHA256SUMS.txt lists 92 files) under the MIT licence: the fourteen scripts of the 18 October note, the checks written for version 4 with their mutation tests (27, 85, 20 and 15 checks in exact arithmetic), the Theorem 9 box list with its reference verifier and an independent re-implementation, the Theorem 5 scripts and written proof, the Lemma 3 audit, the review checks of 15 November 2026, the written proof of the 1/n terms, and the logs of the reruns of 21 November 2026 on two machines. Every script in it has been run on one machine or the other.</p>\n<p>AI ASSISTANCE</p>\n<p>The work was directed by the author. Most of the computational work was done with Claude (Anthropic) and Gemini (Google), with support from Grok (xAI). The text was drafted with AI assistance from the project's records and edited by the author, who takes responsibility for its contents.</p>\n<p>REFERENCES</p>\n<p>J. W. Davis, Centered inverse-binomial moments: polynomial decomposition, continuous dual Hahn moments, and non-holonomicity, Zenodo, doi:10.5281/zenodo.23325629. J. W. Davis, Interval-arithmetic bounds for the Taylor-remainder constants of a uniform expansion of centred inverse-binomial moments (Theorem U, K = 1, 2), Zenodo, doi:10.5281/zenodo.24426089. W. L. Harkness and M. L. Harkness, Generalized hyperbolic secant distributions, J. Amer. Statist. Assoc. 63 (1968), 329&ndash;337. X.-S. Jin and R. Wong, Uniform asymptotic expansions for Meixner polynomials, Constr. Approx. 14 (1998), 113&ndash;150. X. Li and R. Wong, On the asymptotics of the Meixner&ndash;Pollaczek polynomials and their zeros, Constr. Approx. 17 (2001), 59&ndash;90. E. Marciniak and J. Weso\u0142owski, Asymptotic Eulerian expansions for binomial and negative binomial reciprocals, Proc. Amer. Math. Soc. 127 (1999), 3329&ndash;3338. J. Meixner, J. London Math. Soc. 9 (1934), 6&ndash;13. C. N. Morris, Natural exponential families with quadratic variance functions, Ann. Statist. 10 (1982), 65&ndash;80. The full list, with which entries were checked at the source, is in the note.</p>",
+    "doi": "10.5281/zenodo.24431735",
+    "keywords": [
+      "inverse binomial coefficients",
+      "centered moments",
+      "asymptotics",
+      "saddle point method",
+      "Meixner-Pollaczek",
+      "generalized hyperbolic secant distribution",
+      "gamma function",
+      "interval arithmetic",
+      "computer-assisted proof"
+    ],
     "license": {
       "id": "cc-by-4.0"
     },
-    "publication_date": "2026-10-21",
+    "publication_date": "2026-11-22",
     "related_identifiers": [
       {
         "identifier": "10.5281/zenodo.23325629",
         "relation": "isSupplementTo",
         "resource_type": "publication",
         "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.24431534",
+        "relation": "isSupplementedBy",
+        "resource_type": "software",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.24426089",
+        "relation": "references",
+        "resource_type": "software",
+        "scheme": "doi"
       }
     ],
     "relations": {
       "version": [
         {
-          "index": 2,
-          "is_last": false,
+          "index": 3,
+          "is_last": true,
           "parent": {
             "pid_type": "recid",
             "pid_value": "23489287"
@@ -122,31 +118,31 @@
       "title": "Preprint",
       "type": "publication"
     },
-    "title": "Asymptotics of centered inverse-binomial moments: regimes, bounds and open questions (working note).",
-    "version": "3"
+    "title": "Asymptotics of centered inverse-binomial moments: regimes, bounds and open questions (working note)",
+    "version": "4"
   },
-  "modified": "2026-10-21T13:30:14.923118+00:00",
+  "modified": "2026-11-22T02:10:38.648422+00:00",
   "owners": [
     {
       "id": "1936834"
     }
   ],
-  "recid": "23535132",
+  "recid": "24431735",
   "revision": 4,
   "state": "done",
   "stats": {
     "downloads": 116,
     "unique_downloads": 111,
     "unique_views": 102,
-    "version_downloads": 30,
-    "version_unique_downloads": 28,
-    "version_unique_views": 35,
-    "version_views": 41,
+    "version_downloads": 0,
+    "version_unique_downloads": 0,
+    "version_unique_views": 1,
+    "version_views": 4,
     "views": 121
   },
   "status": "published",
   "submitted": true,
   "swh": null,
-  "title": "Asymptotics of centered inverse-binomial moments: regimes, bounds and open questions (working note).",
-  "updated": "2026-10-21T13:30:14.923118+00:00"
+  "title": "Asymptotics of centered inverse-binomial moments: regimes, bounds and open questions (working note)",
+  "updated": "2026-11-22T02:10:38.648422+00:00"
 }
