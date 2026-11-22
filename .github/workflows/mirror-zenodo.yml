@@ -24,13 +24,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Unpack the tool from ZenHub_kit.zip
         run: |
-          echo "cf4d6bd7a6821026c5ed4eef08e9203cd9b1e686bced55b9c973e12ff0274dbd  ZenHub_kit.zip" | sha256sum -c -
+          sha256sum ZenHub_kit.zip
+          echo "f3e331a73cecc56b99e1f245de7fbe4ed4ff557230eb8d2e3d0089c6b6652ee1  ZenHub_kit.zip" | sha256sum -c -
           unzip -q ZenHub_kit.zip -d "$RUNNER_TEMP/kit"
 
       - name: Run the tool's offline tests
